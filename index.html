@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elite travel</title>
+    <style>
+        table, tr, td{
+            border: 1px solid;
+        }
+        table,h2{
+            background-color: white;
+        }
+        table, th td{
+            background-color:#6698ff ;
+        }
+        body {
+            background-color:green ;
+        }
+    </style>
+</head>
+<body>
+    <table>
+    <h2>ELITE TRAVEL MANAGEMENT</h2>
+    <tr>
+        <td >
+            <a href="#travel" id="travel-info">Travel-info</a>
+        </td>
+        <td>
+            <a href="#preferences" id="preferences-info">preferences-info</a>
+        </td>
+        <td>
+            <a href="#personal" id="personal-info">Personal-info</a>
+
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">Travel Information</td>
+    </tr>
+    <tr>
+        <td>select yuor travel destination: <br>
+            <select name="" id="travel">
+             <option value="select">select</option>
+             <option value="london">london</option>
+             <option value="canada">canada</option>
+             <option value="mauritius">mauritius</option>   
+            </select>    
+        </td>
+        <td>date of departure: 
+        <input type="date" id="date">
+        </td>
+        <td>date of  arrival:
+         <input type="date" id="date">   
+        </td>
+        <tr>
+            <td><input type="text" id="kids" placeholder="no of kids"></td>
+            <td><input type="text" id="teens" placeholder="No of teens"></td>
+            <td><input type="text" id="adults" placeholder="no of adults"></td>
+        </tr>
+        <tr>
+            <td>Visa Assistance</td>
+            <td>
+                <input type="radio" id="visa">
+                <label for="visa">yes</label>
+            </td>
+            <td>
+                <input type="radio" id="nvisa">
+                <label for="nvisa">No</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">Personal Information</td>
+        </tr>
+        <tr>
+            <td>Customer Name</td>
+            <td colspan="2"><input type="text" id="cname" placeholder="enter the customer name"></td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td colspan="2"><input type="text" id="pnumber" placeholder="Enter the phone number"></td>
+        </tr>
+        <tr>
+            <td>Email ID</td>
+            <td colspan="2"><input type="text" id="email" placeholder="Enter the emai id"></td>
+        </tr>
+        <tr>
+            <td colspan="3">Activities Preferences</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox">Musenum& historic site</td>
+            <td><input type="checkbox">culture</td>
+            <td><input type="checkbox">beaches</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox">Shopping</td>
+            <td><input type="checkbox">Wildlife</td>
+            <td><input type="checkbox">Relaxing</td>
+        </tr>
+        <tr>
+            <td colspan="3"><a href="#click" id="click hear">**Click heare to unlock exclusive offers</a></td>
+        </tr>
+    </tr>
+    </table>
+</body>
+</html>
